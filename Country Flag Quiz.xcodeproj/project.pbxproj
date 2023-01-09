@@ -11,6 +11,7 @@
 		495A5E9A296C6F4B00A3622F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A5E99296C6F4B00A3622F /* ContentView.swift */; };
 		495A5E9C296C6F4C00A3622F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495A5E9B296C6F4C00A3622F /* Assets.xcassets */; };
 		495A5E9F296C6F4C00A3622F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495A5E9E296C6F4C00A3622F /* Preview Assets.xcassets */; };
+		495A5EA9296C71FF00A3622F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A5EA8296C71FF00A3622F /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		495A5E99296C6F4B00A3622F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		495A5E9B296C6F4C00A3622F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		495A5E9E296C6F4C00A3622F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		495A5EA8296C71FF00A3622F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				495A5E97296C6F4B00A3622F /* Country_Flag_QuizApp.swift */,
-				495A5E99296C6F4B00A3622F /* ContentView.swift */,
+				495A5EA5296C70AE00A3622F /* Views */,
+				495A5EA6296C70E000A3622F /* Components */,
+				495A5EA7296C711C00A3622F /* Models */,
 				495A5E9B296C6F4C00A3622F /* Assets.xcassets */,
 				495A5E9D296C6F4C00A3622F /* Preview Content */,
 			);
@@ -65,6 +69,29 @@
 				495A5E9E296C6F4C00A3622F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		495A5EA5296C70AE00A3622F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				495A5E99296C6F4B00A3622F /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		495A5EA6296C70E000A3622F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		495A5EA7296C711C00A3622F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				495A5EA8296C71FF00A3622F /* Question.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495A5EA9296C71FF00A3622F /* Question.swift in Sources */,
 				495A5E9A296C6F4B00A3622F /* ContentView.swift in Sources */,
 				495A5E98296C6F4B00A3622F /* Country_Flag_QuizApp.swift in Sources */,
 			);
